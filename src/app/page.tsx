@@ -33,15 +33,15 @@ export default function Home() {
 
         {/* Bio */}
         <p className="animate-fade-in stagger-3 max-w-lg text-[15px] leading-7 text-zinc-500 dark:text-zinc-400">
-          I like building products, thinking about systems, and writing about
-          what I learn along the way. Currently exploring AI systems, startup
-          engineering, and the tradeoffs that shape good software.
+          I love building my own products and thinking about creating new
+          things. Currently exploring software engineering, AI, and my own
+          interests across other domains.
         </p>
 
         {/* Links */}
         <div className="animate-fade-in stagger-4 flex gap-5 pt-1">
           <a
-            href="https://github.com"
+            href="https://github.com/dhruvkhandave"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
@@ -52,18 +52,7 @@ export default function Home() {
             github
           </a>
           <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
-          >
-            <span className="text-accent/50 transition-colors group-hover:text-accent">
-              &gt;
-            </span>
-            twitter
-          </a>
-          <a
-            href="mailto:hello@example.com"
+            href="mailto:dhruv.khandave@gmail.com"
             className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
           >
             <span className="text-accent/50 transition-colors group-hover:text-accent">
