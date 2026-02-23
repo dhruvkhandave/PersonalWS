@@ -33,7 +33,6 @@ export default function BlogPage() {
         <form
           action="https://buttondown.com/api/emails/embed-subscribe/dhruvkhandave"
           method="post"
-          referrerPolicy="unsafe-url"
           className="pt-2"
         >
           <label
