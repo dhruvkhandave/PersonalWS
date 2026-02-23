@@ -9,7 +9,7 @@ const projects = [
   {
     name: "MyFitnessChat",
     summary:
-      "A agentic AI chat first food logging app focused on making daily tracking simple enough to actually stick with.",
+      "An agentic AI chat first food logging app focused on making daily tracking simple enough to actually stick with.",
     problem:
       "Most people fall off food tracking because logging is tedious, so consistency drops even when motivation is high.",
     impact:

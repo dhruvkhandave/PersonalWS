@@ -37,7 +37,7 @@ export const readingBooks: ReadingBook[] = [
     status: "currently reading",
     tags: ["habits", "systems", "self-improvement"],
     takeaways: ["Build systems, not goals.",
-                "The ultimate goal is to build habits to solve life problems with as little energy as possible"
+                "The ultimate challenge is to build habits to solve life problems with as little energy as possible"
     ],
   },
 ];

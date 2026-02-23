@@ -39,7 +39,7 @@ export default function AboutPage() {
           </p>
           <p className="mt-2 text-sm leading-7 text-zinc-600 dark:text-zinc-300">
             I love building things and am truly obsessed with AI, it’s become an absolute staple in my daily life. Fun fact I am in the top 1 percent of chatgpt users, not sure about Claude but im sure its not very far behind. 
-            Beyond tech, I’m really into fitness and welness. I&apos;m fascinated by the health-tech space and wearables, and I make sure to carve out time for lifting and meditation.
+            Beyond tech, I’m really into fitness and wellness. I&apos;m fascinated by the health-tech space and wearables, and I make sure to carve out time for lifting and meditation.
           </p>
         </article>
 
