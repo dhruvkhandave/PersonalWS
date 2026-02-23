@@ -28,39 +28,28 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-sm leading-6 text-zinc-500 dark:text-zinc-400">
-          A bit about how I think, what I build, and who influences the way I
-          approach work.
+          A bit more about me: who I am, what my interests are, and some of my inspirations.
         </p>
       </section>
 
       <section className="mt-8 divide-y divide-zinc-200/80 border-y border-zinc-200/80 dark:divide-zinc-800/80 dark:border-zinc-800/80">
         <article className="animate-fade-in stagger-1 py-5">
           <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-zinc-500 dark:text-zinc-400">
-            who i am
+            who i am/what i enjoy
           </p>
           <p className="mt-2 text-sm leading-7 text-zinc-600 dark:text-zinc-300">
-            I come from a builder-first background and spend most of my time at
-            the intersection of software, product thinking, and curiosity.
+            I love building things and am truly obsessed with AI, it’s become an absolute staple in my daily life. Fun fact I am in the top 1 percent of chatgpt users, not sure about Claude but im sure its not very far behind. 
+            Beyond tech, I’m really into fitness and welness. I&apos;m fascinated by the health-tech space and wearables, and I make sure to carve out time for lifting and meditation.
           </p>
         </article>
 
-        <article className="animate-fade-in stagger-2 py-5">
-          <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-zinc-500 dark:text-zinc-400">
-            what i enjoy
-          </p>
-          <p className="mt-2 text-sm leading-7 text-zinc-600 dark:text-zinc-300">
-            I enjoy building useful systems, simplifying messy workflows, and
-            turning rough ideas into things people can actually use.
-          </p>
-        </article>
-
+    
         <article className="animate-fade-in stagger-3 py-5">
           <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-zinc-500 dark:text-zinc-400">
             what i&apos;m building toward
           </p>
           <p className="mt-2 text-sm leading-7 text-zinc-600 dark:text-zinc-300">
-            I&apos;m building toward becoming an engineer who can ship fast,
-            think in systems, and create products with real-world impact.
+            I’m building toward becoming the best engineer I can be: someone who is approachable, can translate difficult concepts into clear ideas, and is a great communicator. My goal is to build systems that have a real, tangible impact on users&apos; lives.
           </p>
         </article>
 
@@ -84,7 +73,7 @@ export default function AboutPage() {
 
         <div className="flex gap-5 pt-1">
           <a
-            href="https://www.linkedin.com/in/your-linkedin-handle"
+            href="https://www.linkedin.com/in/dhruvkhandave"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
@@ -96,7 +85,7 @@ export default function AboutPage() {
           </a>
 
           <a
-            href="mailto:your-email@gmail.com"
+            href="mailto:dhruv.khandave@gmail.com"
             className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
           >
             <span className="text-accent/50 transition-colors group-hover:text-accent">

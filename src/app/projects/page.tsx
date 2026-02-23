@@ -7,6 +7,19 @@ export const metadata: Metadata = {
 
 const projects = [
   {
+    name: "MyFitnessChat",
+    summary:
+      "A agentic AI chat first food logging app focused on making daily tracking simple enough to actually stick with.",
+    problem:
+      "Most people fall off food tracking because logging is tedious, so consistency drops even when motivation is high.",
+    impact:
+      "Built a conversational logging flow that lowers friction and helps users track meals more consistently day to day.",
+    currentFocus:
+      "Transforming MyFitnessChat into MyFitnessStakes: food logging with real accountability where users put money on the line if they miss their tracking goals.",
+    status: "active",
+    year: "2026",
+  },
+  {
     name: "MedRoute",
     summary: "AI-powered triage system that converts unstructured patient symptoms and medical documents into structured data and deterministic severity scores for clinical review.",
     problem:
@@ -19,6 +32,20 @@ const projects = [
     liveUrl: "https://symptom-check-groq-new.vercel.app",
     status: "active",
     year: "2025-2026",
+  },
+  {
+    name: "RealAgent",
+    summary:
+      "Swipe style home discovery: think Tinder for real estate, focused on quick visual decisions and lightweight preferences.",
+    problem:
+      "Home search is often slow, cluttered, and overwhelming when users are forced through heavy listing filters before they can get a feel for properties.",
+    impact:
+      "Built an MVP with preference capture, recommendation flow, and Supabase-backed auth to make discovery faster and more intuitive.",
+    currentFocus:
+      "Improving recommendation quality, refining preference saving, and polishing the swipe UX for a smoother buyer journey.",
+    githubUrl: "https://github.com/dhruvkhandave/RealAgent",
+    status: "active",
+    year: "2025",
   },
 ];
 
@@ -89,30 +116,36 @@ export default function ProjectsPage() {
                 </p>
               </div>
 
-              <div className="flex gap-4 pt-1">
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center gap-1.5 font-mono text-xs text-zinc-500 transition-colors hover:text-accent dark:text-zinc-400 dark:hover:text-accent"
-                >
-                  <span className="text-accent/50 transition-colors group-hover:text-accent">
-                    &gt;
-                  </span>
-                  github
-                </a>
-                <a
-                  href={project.liveUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center gap-1.5 font-mono text-xs text-zinc-500 transition-colors hover:text-accent dark:text-zinc-400 dark:hover:text-accent"
-                >
-                  <span className="text-accent/50 transition-colors group-hover:text-accent">
-                    &gt;
-                  </span>
-                  live
-                </a>
-              </div>
+              {project.githubUrl || project.liveUrl ? (
+                <div className="flex gap-4 pt-1">
+                  {project.githubUrl ? (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group flex items-center gap-1.5 font-mono text-xs text-zinc-500 transition-colors hover:text-accent dark:text-zinc-400 dark:hover:text-accent"
+                    >
+                      <span className="text-accent/50 transition-colors group-hover:text-accent">
+                        &gt;
+                      </span>
+                      github
+                    </a>
+                  ) : null}
+                  {project.liveUrl ? (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group flex items-center gap-1.5 font-mono text-xs text-zinc-500 transition-colors hover:text-accent dark:text-zinc-400 dark:hover:text-accent"
+                    >
+                      <span className="text-accent/50 transition-colors group-hover:text-accent">
+                        &gt;
+                      </span>
+                      live
+                    </a>
+                  ) : null}
+                </div>
+              ) : null}
             </div>
           </article>
         ))}

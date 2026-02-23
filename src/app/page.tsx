@@ -60,6 +60,18 @@ export default function Home() {
             </span>
             email
           </a>
+          <a
+            href="https://www.linkedin.com/in/dhruvkhandave"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
+          >
+            <span className="text-accent/50 transition-colors group-hover:text-accent">
+              &gt;
+            </span>
+            linkedin
+          </a>
+
         </div>
       </div>
     </main>
