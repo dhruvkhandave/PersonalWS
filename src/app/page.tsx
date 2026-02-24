@@ -81,11 +81,45 @@ export default function Home() {
                 things. Currently exploring software engineering, AI, and my own
                 interests across other domains.
               </p>
+
+              <div className="flex gap-5 pt-1">
+                <a
+                  href="https://github.com/dhruvkhandave"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
+                >
+                  <span className="text-accent/50 transition-colors group-hover:text-accent">
+                    &gt;
+                  </span>
+                  github
+                </a>
+                <a
+                  href="mailto:dhruv.khandave@gmail.com"
+                  className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
+                >
+                  <span className="text-accent/50 transition-colors group-hover:text-accent">
+                    &gt;
+                  </span>
+                  email
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/dhruvkhandave"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
+                >
+                  <span className="text-accent/50 transition-colors group-hover:text-accent">
+                    &gt;
+                  </span>
+                  linkedin
+                </a>
+              </div>
             </div>
           </div>
 
           <div
-            className="absolute inset-0 z-20 p-5 sm:p-6"
+            className="pointer-events-none absolute inset-0 z-20 p-5 sm:p-6"
             style={{
               opacity: imageOpacity,
               transform: `translateY(${imageShiftY}px)`,
@@ -109,39 +143,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto mt-10 flex max-w-2xl gap-5 pt-7">
-          <a
-            href="https://github.com/dhruvkhandave"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
-          >
-            <span className="text-accent/50 transition-colors group-hover:text-accent">
-              &gt;
-            </span>
-            github
-          </a>
-          <a
-            href="mailto:dhruv.khandave@gmail.com"
-            className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
-          >
-            <span className="text-accent/50 transition-colors group-hover:text-accent">
-              &gt;
-            </span>
-            email
-          </a>
-          <a
-            href="https://www.linkedin.com/in/dhruvkhandave"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-accent dark:text-zinc-500 dark:hover:text-accent"
-          >
-            <span className="text-accent/50 transition-colors group-hover:text-accent">
-              &gt;
-            </span>
-            linkedin
-          </a>
-      </section>
     </main>
   );
 }
